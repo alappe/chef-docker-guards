@@ -1,0 +1,12 @@
+DEPENDENCIES
+  acme
+    path: .
+    metadata: true
+  docker (~> 2.9.8)
+
+GRAPH
+  acme (1.0.0)
+    docker (>= 0.0.0)
+  compat_resource (12.16.1)
+  docker (2.9.8)
+    compat_resource (>= 12.14.7)
